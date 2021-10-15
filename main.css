@@ -1,0 +1,316 @@
+
+/*=========Main color scheme========*/
+:root {
+    --main-bg-color: #2e2e2e;
+
+    --main-purple: #9d6ad6; 
+
+    --main-white: #f0f0f0;
+
+    --secondary-white: #d1d1d1;
+
+    --secondary-grey: #2C2D36;
+
+    --secondary-pink: #765E67;
+    
+    --third-grey:#56565E;
+
+    --third-white: #88888E;
+}
+
+/*===========color class============*/
+
+.purple {
+    color:var(--main-purple);
+}
+
+.secwhite {
+    color:var(--secondary-white);
+}
+
+
+
+/*======== Reset margins==========================================================*/ 
+
+*{
+    margin: 0px;
+    padding: 0px;
+    }
+
+
+
+/*=========Body CSS==============================================================*/
+
+body {
+    background: linear-gradient(var(--main-bg-color),var(--secondary-grey));
+    font-family: "source code pro", Verdana, monospace;
+}
+
+
+
+/*=======header===========================================================*/
+
+.menu {
+    background-color: var(--main-purple);
+    height: 30px;
+
+}
+
+.fronthead {
+    background-color: var(--main-purple);
+    height: 47px;
+}
+
+
+
+/*=========Navigation menu====================================================*/
+
+nav {
+    width: 75%;
+    margin: 0 auto;
+    position: sticky;
+    top: 0px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    float:left;
+    width: 20%;
+    text-align: center;
+    position: relative;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    padding: 5px 0px;
+}
+
+nav a:hover {
+    color: var(--main-white);
+    border-bottom: 2px solid var(--main-white);
+}
+
+
+
+/*======== menu roll==========================================================*/
+
+.insideroll {
+    display: none;
+    background-color: var(--secondary-pink);
+    position:absolute;
+    width: 120%;
+    z-index: 1000;
+}
+
+nav>ul li:hover .insideroll {
+    display: block;
+}
+
+.insideroll li {
+    float:none;
+    width: 100%;
+    text-align:left;
+}
+
+.insideroll a {
+    padding: 5px;
+    border-bottom: none;
+}
+
+.insideroll a:hover {
+    border-bottom: none;
+    background-color: var(--secondary-white);
+    color:var(--main-purple);
+}
+
+.unroll > a::after{
+    content: "▼";
+
+}
+
+
+
+/*======h, p, etc... text css=====================================================*/
+
+p {
+    color : var(--main-purple);
+    margin: 5px;
+}
+
+h1 {
+    color: var(--main-white);
+    font-family: "Roboto", Verdana, sans-serif;
+    margin:12px 5px;
+}
+
+h2 {
+    margin: 15px 5px 10px 5px;
+}
+
+h3 {
+    margin: 15px 5px 10px 5px;
+    
+}
+
+.bold {
+    font-weight: bold;
+}
+
+h2,li,a,em,h3 {
+    color: var(--secondary-white);
+
+    font-style: normal;    
+}
+
+.link:visited {
+    color: var(--secondary-pink)
+}
+
+.link:hover {
+    color: var(--main-white)
+}
+
+a:hover {
+    color:var(--main-white)
+}
+
+.p1 {
+    border-left-width: 5px;
+    border-left-style: solid;
+    border-left-color: var(--secondary-white);
+    padding-left: 15px;
+}
+
+.underlined1 {
+    text-decoration: underline solid;
+}
+
+
+
+/*=========== diverse postionnning=========================================*/
+
+.sticky {
+    margin: 0 auto;
+    position: sticky;
+    top: 0px;
+
+}
+
+.fixed {
+    position:fixed;
+
+}
+
+.inline {
+    display: inline;
+}
+
+.centered {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.absol {
+    position: absolute;
+}
+
+.right {
+    text-align: right;
+}
+
+
+/*======Padding============================================================*/
+
+.padtop {
+    padding-top: 5px;
+}
+
+.left150 {
+    
+    padding-right: 120px;
+}
+
+
+
+/*=======Margins==========================================================*/
+
+.margtop {
+    margin-top: 15px;
+}
+
+.margauto {
+    margin: 0 auto;
+}
+
+
+/*======Clear=========================*/
+
+.clearb {
+    clear: both;
+}
+
+
+/*===========Table css===================================================*/
+
+td {
+    text-align: center;
+}
+
+td,th {
+    border: 1px solid var(--secondary-white);
+    padding: 7px;
+    vertical-align: middle;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.tablecenter {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/*=========IMG CSS====================================================*/
+
+.logopng {
+    width: 80px;
+    vertical-align: top;
+    padding-left: 25px;
+    float: left;
+}
+
+
+
+/*===========Button CSS==================================================*/
+
+.button {
+    border: solid;
+    padding: 7px 15px;
+    color: var(--main-purple) ;
+    background-color: var(--secondary-white);
+}
+
+.button:hover {
+    background-color: var(--third-white);
+    color: black;
+    cursor: pointer;
+
+}
+
+.button:active {
+    background-color: var(--third-white);
+    color: black;
+    /*transform: translateY(4px);*/
+    border:inset;
+}
