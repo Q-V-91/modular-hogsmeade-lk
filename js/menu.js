@@ -9,15 +9,8 @@ const headimg = '<img class="logopng" src="rsrc/aglogo.png" alt="logo of art gal
         '<nav>'+
                 '<ul class="menu centered padtop">'+
                     '<li><a class="menu" href="index.html">Home</a></li>'+
-                    '<li class="menu unroll"><a class="menu" href="yprofile.html">username &ensp;</a>'+
-                        '<ul class="insideroll">'+
-                            '<li><a class="" href="yprofile.html">Your Profile</a></li>'+
-                            '<li><a class="" href="upload.html">Upload</a></li>'+
-                            '<li><a class="" href="accountset.html">Account settings</a></li>'+
-                        '</ul>'+
-                   '</li>'+
+                    '<li class="menu"><a class="menu" href="shop.html">Shop</a></li>'+
                     '<li><a class="menu" href="faq.html">FAQ</a></li>'+
-                    '<li><a class="menu" href="tos.html">ToS</a></li>'+
                     '<li><a class="menu" href="aboutus.html">About us</a></li>'+
                 '</ul>'+
             '</nav>';
