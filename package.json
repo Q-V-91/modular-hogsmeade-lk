@@ -4,5 +4,9 @@
   "main": "index.js",
   "repository": "https://github.com/Q-V-91/modular-hogsmeade-lk.git",
   "author": "Lk <quentin.vanexem@outlook.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "jquery": "^3.6.0"
+  }
 }
