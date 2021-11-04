@@ -2,6 +2,7 @@ const products = [
     { img: "1.jpg", productName: "Full goathland 3d kit", category: "Big Kit", price: 30 },
     { img: "2.jpg", productName: "Goathland Signal box ONLY", category: "Small Kit", price: 5 },
     { img: "3.jpg", productName: "Goathland footbridge ONLY", category: "Small Kit", price: 5 },
+    { img: "4.jpg", productName: "Goathland water crane ONLY", category: "Very Small Kit", price: 2 },
 ];
 
 
