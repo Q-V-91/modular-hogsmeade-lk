@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--/////////////////////////////-->
-    <title>A modular Hogsmeade Layout</title>
+    <title>LK's Shop </title>
     <!--/////////GOOGLE FONTS////////-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,8 +13,10 @@
     <!--///CSS declarations///-->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="main.css">
-    <!--///Javascript declarations///-->    
+    <!--///Javascript declarations///-->   
+    <script src="node_modules/jquery/dist/jquery.min.js"></script> 
     <script src="js/menu.js"></script>
+    <script src="js/shop.js"></script>
 </head>
 <header class="sticky fronthead" id="topmenu">
            
@@ -27,13 +29,32 @@
     </div>
 
     <div id="mainArea" class="col-12">
-        <h2>You now join me in this adventure</h2>
-        <div class="mt-4 mx-4">
-            <p>Through this website, you will be able to follow me, check my progress and have a list of materials used.</p>
-            <p>You also have the option to buy the 3d files if you desire so in the <a href="shop.html">Shop</a> .</p>
+        <h2>e-Shop</h2>
+        <div class="mt-4 mx-4 pb-2 mb-2">
+            <p>Here you can buy all the 3d files i've created and use for this project</p>
+          
 
         </div>
         
+    </div>
+
+    
+        <div class="row"></div>
+        <table class="table text-start m-2 secwhite">
+            <thead>
+                <tr>
+                    <th class="align-middle col-3"></th>
+                    <th class="align-middle col-5">Product Name</th>
+                    <th class="align-middle col-2">Category</th>
+                    <th class="align-middle col-2">Price</th>
+                </tr>
+    
+            </thead>
+            <tbody id="productList" class="m-1" class="row">
+    
+            </tbody>
+        </table>
+
     </div>
 </body>
 </html>
