@@ -11,7 +11,7 @@ const headimg =
                     '<li><a class="menu" href="index.html">Home</a></li>'+
                     '<li class="menu"><a class="menu" href="shop.html">Shop</a></li>'+
                     '<li><a class="menu" href="faq.html">FAQ</a></li>'+
-                    '<li><a class="menu" href="aboutus.html">About us</a></li>'+
+                    '<li><a class="menu" href="about-us.html">About us</a></li>'+
                 '</ul>'+
             '</nav>';
 
