@@ -5,7 +5,7 @@ document.onreadystatechange = function () {
 
 /*-------------------------------Menu goes here-------------------*/
 
-const headimg = '<img class="logopng" src="rsrc/aglogo.png" alt="logo of art gallery"></img>'+
+const headimg = 
         '<nav>'+
                 '<ul class="menu centered padtop">'+
                     '<li><a class="menu" href="index.html">Home</a></li>'+

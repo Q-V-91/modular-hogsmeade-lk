@@ -3,13 +3,13 @@
 :root {
     --main-bg-color: #2e2e2e;
 
-    --main-purple: #9d6ad6; 
+    --main-purple: #be4242; 
 
     --main-white: #f0f0f0;
 
     --secondary-white: #d1d1d1;
 
-    --secondary-grey: #2C2D36;
+    --secondary-grey: #362c2c;
 
     --secondary-pink: #765E67;
     
@@ -39,13 +39,16 @@
 
 
 
-/*=========Body CSS==============================================================*/
+/*=========Body & HTML CSS=================================================*/
 
-body {
+html {
     background: linear-gradient(var(--main-bg-color),var(--secondary-grey));
     font-family: "source code pro", Verdana, monospace;
 }
 
+body {
+    background-color: var(--main-bg-color);
+}
 
 
 /*=======header===========================================================*/
@@ -59,6 +62,15 @@ body {
 .fronthead {
     background-color: var(--main-purple);
     height: 47px;
+}
+
+/*==============IDs======================*/
+
+#secondHead{
+    background-image: url("img/back-head.jpg") ;
+    min-height: 10em;
+
+    text-align: left;
 }
 
 
