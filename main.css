@@ -57,6 +57,11 @@ body {
     background-color: var(--main-bg-color);
 }
 
+/*============various display states==========*/
+
+.hide{
+    display: none;
+}
 
 /*=======header===========================================================*/
 
