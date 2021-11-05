@@ -1,8 +1,8 @@
 const products = [
-    { img: "1.jpg", productName: "Full goathland 3d kit", category: "Big Kit", price: 30 },
-    { img: "2.jpg", productName: "Goathland Signal box ONLY", category: "Small Kit", price: 5 },
-    { img: "3.jpg", productName: "Goathland footbridge ONLY", category: "Small Kit", price: 5 },
-    { img: "4.jpg", productName: "Goathland water crane ONLY", category: "Very Small Kit", price: 2 },
+    { id: 1, img: "1.jpg", productName: "Full Goathland/Hogsmeade 3d kit", category: "Big Kit", price: 30 },
+    { id: 2, img: "2.jpg", productName: "Goathland/Hogsmeade Signal box ONLY", category: "Small Kit", price: 5 },
+    { id: 3, img: "3.jpg", productName: "Goathland/Hogsmeade footbridge ONLY", category: "Small Kit", price: 5 },
+    { id: 4, img: "4.jpg", productName: "Goathland/Hogsmeade water crane ONLY", category: "Very Small Kit", price: 2 },
 ];
 
 
