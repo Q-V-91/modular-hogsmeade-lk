@@ -32,6 +32,10 @@
     color:var(--main-purple);
 }
 
+.mainwhite{
+    color:var(--main-white);
+}
+
 
 /*======== Reset margins=======================================*/ 
 
