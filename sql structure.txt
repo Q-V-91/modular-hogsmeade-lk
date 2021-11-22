@@ -1,0 +1,7 @@
+User account:
+
+    USER makes an ORDER
+        can be of 1 to N PRODUCTS
+        he can choose if delivered or not
+        do a billing
+        ADDRESS
