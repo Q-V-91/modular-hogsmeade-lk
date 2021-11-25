@@ -2,6 +2,6 @@ User account:
 
     USER makes an ORDER
         can be of 1 to N PRODUCTS
-        he can choose if delivered or not
+        he can choose if delivered or not (maybe not as it's digital goods only so far)
         do a billing
         ADDRESS
